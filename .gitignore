@@ -1,2 +1,109 @@
+# ----------------------------
+# Node.js
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.temp/
+
+# ----------------------------
+# React / Vite / Frontend
+# ----------------------------
+dist/
+build/
+*.local
+*.cache
+*.lock
+!.yarnrc
+.svelte-kit/
+.next/
+out/
+.vercel/
+.netlify/
+
+# ----------------------------
+# Logs
+# ----------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ----------------------------
+# Environment Files
+# ----------------------------
 .env
-node_modules
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ----------------------------
+# OS Files
+# ----------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ----------------------------
+# VS Code Settings
+# ----------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# ----------------------------
+# Uploads / Temp files
+# ----------------------------
+uploads/
+temp/
+tmp/
+.cache/
+coverage/
+
+# ----------------------------
+# Git / Misc
+# ----------------------------
+.gitignore
+.gitmodules
+*.swp
+*.swo
+*.tmp
+
+# ----------------------------
+# Backend Specific
+# ----------------------------
+/uploads
+/public/uploads
+/storage
+*.sqlite
+*.db
+*.bak
+
+# ----------------------------
+# TypeScript
+# ----------------------------
+*.tsbuildinfo
+
+# ----------------------------
+# Docker
+# ----------------------------
+docker-compose.override.yml
+.docker/
